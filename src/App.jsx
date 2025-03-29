@@ -47,17 +47,17 @@ export default function App() {
   );
 
   return (
-    <div className="min-h-screen  bg-gradient-to-b from-[#1C1D2B] via-[#2A2B3D]  to-[#FF6B81] to-160%  flex flex-col items-center justify-between py-12 relative overflow-hidden">
+    <div className="min-h-screen  bg-gradient-to-b from-[#1C1D2B] via-[#2A2B3D]  to-[#FF6B81] to-290%  flex flex-col items-center justify-between py-12 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <img src="./images/bg-stars.svg" alt="" />
       </div>
 
       <div className="text-center z-10 mt-12">
-        <h1 className="text-white text-3xl sm:text-5xl font-bold tracking-wider mb-16">
-          WE'RE LAUNCHING SOON
+        <h1 className="text-white text-3xl sm:text-3xl font-bold tracking-widest mb-16">
+          WE´RE LAUNCHING SOON
         </h1>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
           <TimeBox value={timeLeft.days} label="days" />
           <TimeBox value={timeLeft.hours} label="hours" />
           <TimeBox value={timeLeft.minutes} label="minutes" />
