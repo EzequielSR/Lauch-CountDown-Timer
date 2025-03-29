@@ -49,7 +49,7 @@ export default function App() {
   return (
     <div className="min-h-screen  bg-gradient-to-b from-[#1C1D2B] via-[#2A2B3D]  to-[#FF6B81] to-290%  flex flex-col items-center justify-between py-12 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
-        <img src="/images/bg-stars.svg" alt="" />
+        <img src="/images/bg-stars.svg" alt="Background stars" />
       </div>
 
       <div className="text-center z-10 mt-12">
@@ -71,7 +71,7 @@ export default function App() {
           preserveAspectRatio="none"
           style={{ height: "180px" }}
           src="/images/pattern-hills.svg"
-          alt=""
+          alt="Hills pattern"
         />
       </div>
       <div className="flex space-x-8 z-10 mt-auto">
